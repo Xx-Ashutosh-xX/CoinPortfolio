@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Coin Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Coin Portfolio</h1>
+    <div class="filter-container">
+      <label for="country-filter">Filter by Country:</label>
+      <select id="country-filter">
+        <option value="All">All</option>
+      </select>
+    </div>
+  </header>
+  <main>
+    <table id="coins-table">
+      <thead>
+        <tr>
+          <th>Country</th>
+          <th>Year</th>
+          <th>Value/Nomenclature</th>
+          <th>Description</th>
+          <th>Metal</th>
+          <th>Estimated Value (2025)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Populated by JS -->
+      </tbody>
+    </table>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
