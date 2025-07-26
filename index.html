@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
+  <meta charset="UTF-8" />
   <title>My Coin Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
@@ -17,6 +17,13 @@
       <select id="country-filter">
         <option value="All">All</option>
       </select>
+
+      <label for="price-sort">Sort by Price:</label>
+      <select id="price-sort">
+        <option value="none">None</option>
+        <option value="asc">Price: Low → High</option>
+        <option value="desc">Price: High → Low</option>
+      </select>
     </div>
   </header>
   <main>
@@ -24,7 +31,7 @@
       <table id="coins-table">
         <thead>
           <tr>
-            <th>Country/Period</th>
+            <th>Country</th>
             <th>Year</th>
             <th>Denomination</th>
             <th>Description</th>
@@ -33,7 +40,7 @@
           </tr>
         </thead>
         <tbody>
-          <!-- JS Populates This -->
+          <!-- JS populates this -->
         </tbody>
       </table>
     </div>
