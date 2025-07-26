@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>All Coins | My Coin Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-circle animated-pop">
+      <span class="wave-emoji">💰</span>
+    </div>
+    <h1 class="animated-header-text">All Coins</h1>
+    <div class="center-link" style="margin-top:1.1em;">
+      <a href="index.html" class="btn-accent-back animated-pop">← Back to Countries</a>
+    </div>
+    <div class="filter-container glassy animated-fadein">
+      <label for="country-filter">Filter by Country:</label>
+      <select id="country-filter">
+        <option value="All">All</option>
+      </select>
+
+      <label for="year-filter">Year:</label>
+      <select id="year-filter">
+        <option value="All">All</option>
+      </select>
+
+      <label for="metal-filter">Metal:</label>
+      <select id="metal-filter">
+        <option value="All">All</option>
+      </select>
+
+      <label for="price-sort">Sort by Price:</label>
+      <select id="price-sort">
+        <option value="none">None</option>
+        <option value="asc">Price: Low → High</option>
+        <option value="desc">Price: High → Low</option>
+      </select>
+    </div>
+  </header>
+  <main>
+    <div class="table-wrapper animated-section">
+      <table id="coins-table" class="animated-table">
+        <thead>
+          <tr>
+            <th>Coin Location</th>
+            <th>Country</th>
+            <th>Year</th>
+            <th>Denomination</th>
+            <th>Description</th>
+            <th>Metal</th>
+            <th>Value (2025)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- JS Populates -->
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <footer class="animated-footer">
+    Made with <span class="footer-heart">❤️</span> – July 26, 2025.
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Country Coins | My Coin Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-circle animated-pop">
+      <span class="wave-emoji">💰</span>
+    </div>
+    <h1 class="animated-header-text" id="country-heading">Coins</h1>
+    <div class="center-link" style="margin-top:1.1em;">
+      <a href="index.html" class="btn-accent-back animated-pop">← Back to Countries</a>
+      <a href="all.html" class="btn-accent animated-pop">See All Coins</a>
+    </div>
+  </header>
+  <main>
+    <div class="table-wrapper animated-section">
+      <table id="coins-table" class="animated-table">
+        <thead>
+          <tr>
+            <th>Coin Location</th>
+            <th>Country</th>
+            <th>Year</th>
+            <th>Denomination</th>
+            <th>Description</th>
+            <th>Metal</th>
+            <th>Value (2025)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- JS populates rows -->
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <footer class="animated-footer">
+    Made with <span class="footer-heart">❤️</span> – July 26, 2025.
+  </footer>
+
+  <script>
+    function getQueryParam(name) {
+      const url = new URL(window.location.href);
+      return url.searchParams.get(name);
+    }
+
+    const curCountry = getQueryParam('country') || "";
+    document.getElementById('country-heading').textContent = curCountry ? `Coins from ${curCountry}` : "Country Coins";
+
+    fetch('coins.csv')
+      .then(res => res.text())
+      .then(text => {
+        const lines = text.trim().split('\n').filter(l=>l.trim().length);
+        const header = lines.find(l => l.toLowerCase().includes('country'));
+        const col = h => header.split(',').findIndex(x => x.trim().toLowerCase() === h);
+        
+        const data = lines.slice(1).map(line => {
+          let parts = line.split(',').map(p => p.trim());
+          // Handle commas in description (7 columns expected)
+          if(parts.length > 8){
+            const beforeDesc = parts.slice(0,4);
+            const afterDesc = parts.slice(5);
+            const descParts = parts.slice(4, parts.length - afterDesc.length);
+            parts = [...beforeDesc, descParts.join(','), ...afterDesc];
+          }
+          return parts;
+        }).filter(r => r[col('country')] === curCountry);
+
+        const tbody = document.querySelector('#coins-table tbody');
+        data.forEach(row => {
+          const tr = document.createElement('tr');
+          [
+            col('coin location'), 
+            col('country'), 
+            col('mint year'), 
+            col('value / nomenclature'), 
+            col('description'), 
+            col('metal'), 
+            col('value as on 2025')
+          ].forEach(i => {
+            const td = document.createElement('td');
+            td.textContent = row[i] || '-';
+            tr.appendChild(td);
+          });
+          tbody.appendChild(tr);
+        });
+      })
+      .catch(err => console.error("Error loading coins:", err));
+  </script>
+</body>
+</html>

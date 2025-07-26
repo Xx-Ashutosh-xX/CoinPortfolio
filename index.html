@@ -2,52 +2,63 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>My Coin Portfolio</title>
+  <title>Coin Countries | My Coin Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <div class="logo-circle">
-      <span>💰</span>
+    <div class="logo-circle animated-pop">
+      <span class="wave-emoji">💰</span>
     </div>
-    <h1>Coin Portfolio Gallery</h1>
-    <div class="filter-container">
-      <label for="country-filter">Filter by Country:</label>
-      <select id="country-filter">
-        <option value="All">All</option>
-      </select>
-
-      <label for="price-sort">Sort by Price:</label>
-      <select id="price-sort">
-        <option value="none">None</option>
-        <option value="asc">Price: Low → High</option>
-        <option value="desc">Price: High → Low</option>
-      </select>
-    </div>
+    <h1 class="animated-header-text">Coin Portfolio: Choose a Country</h1>
   </header>
   <main>
-    <div class="table-wrapper">
-      <table id="coins-table">
-        <thead>
-          <tr>
-            <th>Country</th>
-            <th>Year</th>
-            <th>Denomination</th>
-            <th>Description</th>
-            <th>Metal</th>
-            <th>Value (2025)</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- JS populates this -->
-        </tbody>
-      </table>
+    <div class="country-grid" id="country-list">
+      <!-- JS populates countries here -->
+    </div>
+    <div class="center-link">
+      <a href="all.html" class="btn-accent animated-pop">See All Coins</a>
     </div>
   </main>
-  <footer>
-    Made with ❤️ – Last update: July 26, 2025.
+  <footer class="animated-footer">
+    Made with <span class="footer-heart">❤️</span> – July 26, 2025.
   </footer>
-  <script src="app.js"></script>
+  <script>
+    fetch('coins.csv')
+      .then(res => res.text())
+      .then(text => {
+        const lines = text.trim().split('\n').filter(l=>l.trim().length);
+        let header = lines.find(l=>l.toLowerCase().includes('country'));
+        let countryIdx = header.split(',').findIndex(h => h.trim().toLowerCase() === 'country');
+        const data = lines.slice(1)
+          .map(line => {
+            let parts = line.split(',').map(p => p.trim());
+            // Handle commas in description field
+            if(parts.length > 8){ // now 8 columns, index 0 to 7
+              const beforeDesc = parts.slice(0,4);
+              const afterDesc = parts.slice(5);
+              const descParts = parts.slice(4, parts.length - afterDesc.length);
+              parts = [...beforeDesc, descParts.join(','), ...afterDesc];
+            }
+            return parts;
+          })
+          .filter(r => r[countryIdx]);
+        
+        const uniqueCountries = [...new Set(data.map(r => r[countryIdx]))].sort();
+
+        const grid = document.getElementById('country-list');
+        uniqueCountries.forEach(country => {
+          const card = document.createElement('a');
+          card.href = `country.html?country=${encodeURIComponent(country)}`;
+          card.className = 'country-card animated-fadein';
+          card.innerHTML = `<span class="country-name">${country}</span>`;
+          grid.appendChild(card);
+        });
+      })
+      .catch(err => {
+        console.error("Error loading countries:", err);
+      });
+  </script>
 </body>
 </html>

@@ -1,4 +1,8 @@
-let globalData = []; // will hold original CSV data for sorting/filtering
+let globalData = [];
+
+function clean(value) {
+  return value ? value.trim().replace(/^-+$/, "").replace(/^"|"$/g, "") : "";
+}
 
 function parseCSV(text) {
   const lines = text.split('\n').filter(line => line.trim().length);
@@ -7,20 +11,15 @@ function parseCSV(text) {
   const headers = lines[headerIdx].split(',').map(h => h.trim());
   const data = [];
   for (let i = headerIdx + 1; i < lines.length; i++) {
-    const parts = lines[i].split(',').map(p => p.trim());
-
-    // Handle description field containing commas (join excess parts)
+    let parts = lines[i].split(',').map(p => p.trim());
+    // Handle commas in description field (if parts length > expected 8)
     if (parts.length > headers.length) {
       const beforeDesc = parts.slice(0, 4);
       const afterDesc = parts.slice(5);
       const descParts = parts.slice(4, parts.length - afterDesc.length);
-      const description = descParts.join(',');
-      parts.length = 0;
-      parts.push(...beforeDesc, description, ...afterDesc);
+      parts = [...beforeDesc, descParts.join(','), ...afterDesc];
     }
-    
-    if (!parts[1]) continue; // Skip rows without country
-
+    if (!clean(parts[2])) continue; // Skip if country missing (index 2)
     data.push(parts);
   }
   return { headers, data };
@@ -30,20 +29,61 @@ function unique(arr) {
   return [...new Set(arr)];
 }
 
-function renderTable(data, filter) {
+function populateFilters(data) {
+  const countrySel = document.getElementById('country-filter');
+  const yearSel = document.getElementById('year-filter');
+  const metalSel = document.getElementById('metal-filter');
+
+  const countries = {};
+  const years = {};
+  const metals = {};
+
+  data.forEach(r => {
+    const c = clean(r[2]);
+    const y = clean(r[3]);
+    const m = clean(r[6]);
+
+    if (c && c.toLowerCase() !== "country" && c !== "-") countries[c] = true;
+    if (y && y.toLowerCase() !== "mint year" && y !== "-") years[y] = true;
+    if (m && m.toLowerCase() !== "metal" && m !== "-") metals[m] = true;
+  });
+
+  // Helper to add options
+  function fillOptions(select, values) {
+    // Remove except for "All"
+    [...select.querySelectorAll('option:not([value="All"])')].forEach(opt => opt.remove());
+    [...Object.keys(values)].sort((a,b)=>a.localeCompare(b, undefined, {numeric:true}))
+      .forEach(v => {
+        const opt = document.createElement('option');
+        opt.value = v; opt.textContent = v;
+        select.appendChild(opt);
+      });
+  }
+
+  fillOptions(countrySel, countries);
+  fillOptions(yearSel, years);
+  fillOptions(metalSel, metals);
+}
+
+function renderTable(data, filters) {
   const tbody = document.getElementById('coins-table').getElementsByTagName('tbody')[0];
   tbody.innerHTML = '';
 
   data.forEach(row => {
-    if (filter !== 'All' && row[1] !== filter) return;
+    if (filters.country !== 'All' && row[2] !== filters.country) return;
+    if (filters.year !== 'All' && row[3] !== filters.year) return;
+    if (filters.metal !== 'All' && row[6] !== filters.metal) return;
+
     const tr = document.createElement('tr');
+    // Render columns: Coin Location(1), Country(2), Year(3), Denomination(4), Desc(5), Metal(6), Value(7)
     [
-      row[1] || '-',  // Country
-      row[2] || '-',  // Year
-      row[3] || '-',  // Denomination
-      row[4] || '-',  // Description
-      row[5] || '-',  // Metal
-      row[6] || '-',  // Value 2025
+      row[1] || '-',
+      row[2] || '-',
+      row[3] || '-',
+      row[4] || '-',
+      row[5] || '-',
+      row[6] || '-',
+      row[7] || '-'
     ].forEach(val => {
       const td = document.createElement('td');
       td.textContent = val;
@@ -53,24 +93,13 @@ function renderTable(data, filter) {
   });
 }
 
-function populateFilter(data) {
-  const select = document.getElementById('country-filter');
-  const countries = data.map(r => r[1]).filter(Boolean);
-  unique(countries).sort().forEach(country => {
-    const option = document.createElement('option');
-    option.value = country;
-    option.textContent = country;
-    select.appendChild(option);
-  });
-}
-
 function sortData(data, order) {
   const sorted = [...data];
-  sorted.sort((a, b) => {
-    const valA = parseFloat(a[6]) || 0; // "Value AS ON 2025"
-    const valB = parseFloat(b[6]) || 0;
-    if (order === 'asc') return valA - valB;
-    if (order === 'desc') return valB - valA;
+  sorted.sort((a,b) => {
+    const valA = parseFloat(a[7].replace(/[^\d.-]/g,'')) || 0; // Remove $ or other symbols
+    const valB = parseFloat(b[7].replace(/[^\d.-]/g,'')) || 0;
+    if(order === 'asc') return valA - valB;
+    if(order === 'desc') return valB - valA;
     return 0;
   });
   return sorted;
@@ -78,38 +107,43 @@ function sortData(data, order) {
 
 document.addEventListener('DOMContentLoaded', () => {
   fetch('coins.csv')
-    .then(response => response.text())
+    .then(resp => resp.text())
     .then(text => {
       const { data } = parseCSV(text);
       globalData = data;
+      populateFilters(globalData);
+      let filters = { country: 'All', year: 'All', metal: 'All' };
+      let sortOrder = 'none';
 
-      populateFilter(globalData);
-
-      let currentFilter = 'All';
-      let currentSortOrder = 'none';
-
-      function updateTable() {
-        let filteredSortedData = globalData;
-        if (currentSortOrder !== 'none') {
-          filteredSortedData = sortData(globalData, currentSortOrder);
+      function update() {
+        let filteredSorted = globalData;
+        if(sortOrder !== 'none'){
+          filteredSorted = sortData(filteredSorted, sortOrder);
         }
-        renderTable(filteredSortedData, currentFilter);
+        renderTable(filteredSorted, filters);
       }
 
-      updateTable();
+      update();
 
-      document.getElementById('country-filter').addEventListener('change', function () {
-        currentFilter = this.value;
-        updateTable();
+      document.getElementById('country-filter').addEventListener('change', e => {
+        filters.country = e.target.value;
+        update();
       });
-
-      document.getElementById('price-sort').addEventListener('change', function () {
-        currentSortOrder = this.value;
-        updateTable();
+      document.getElementById('year-filter').addEventListener('change', e => {
+        filters.year = e.target.value;
+        update();
+      });
+      document.getElementById('metal-filter').addEventListener('change', e => {
+        filters.metal = e.target.value;
+        update();
+      });
+      document.getElementById('price-sort').addEventListener('change', e => {
+        sortOrder = e.target.value;
+        update();
       });
     })
     .catch(err => {
-      console.error("Error loading CSV: ", err);
-      alert("Failed to load coins.csv! Make sure it's in the right folder and named correctly.");
+      console.error("Error loading CSV:", err);
+      alert("Error loading coins.csv. Please ensure it is in the correct folder and correctly formatted.");
     });
 });
