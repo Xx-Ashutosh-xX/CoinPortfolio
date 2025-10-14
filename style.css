@@ -63,6 +63,16 @@ header {
   will-change: color, text-shadow;
 }
 
+.animated-subheader-text {
+  font-family: var(--font-header);
+  color: var(--glow);
+  font-size: 1.7rem;
+  letter-spacing: 0.037em;
+  margin: 1rem 0 0.8rem 0;
+  font-weight: 900;
+  will-change: color, text-shadow;
+}
+
 @keyframes headerGlow {
   0%   { text-shadow: 0 0 10px var(--accent); color: var(--glow);}
   100% { text-shadow: 0 0 30px #36fda070, 0 5px 40px #22ee99; color: #e1ffee;}

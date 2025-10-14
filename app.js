@@ -65,6 +65,27 @@ function populateFilters(data) {
   fillOptions(metalSel, metals);
 }
 
+// New function to calculate and display the total value
+function calculateAndDisplayTotalValue(data, filters) {
+  
+    let totalValue = 0;
+    data.forEach(row => {
+        // Apply the same filters as the renderTable function
+        if (filters.country !== 'All' && row[2] !== filters.country) return;
+        if (filters.year !== 'All' && row[3] !== filters.year) return;
+        if (filters.metal !== 'All' && row[6] !== filters.metal) return;
+
+        // Remove any non-numeric characters (like '$') before parsing the float
+        const value = parseFloat(row[7].replace(/[^\d.-]/g, '')) || 0;
+        totalValue += value;
+    });
+
+    const totalValueElement = document.getElementById('total-value');
+    if (totalValueElement) {
+        totalValueElement.textContent = `$${totalValue.toFixed(2)}`;
+    }
+}
+
 function renderTable(data, filters) {
   const tbody = document.getElementById('coins-table').getElementsByTagName('tbody')[0];
   tbody.innerHTML = '';
@@ -121,6 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
           filteredSorted = sortData(filteredSorted, sortOrder);
         }
         renderTable(filteredSorted, filters);
+        calculateAndDisplayTotalValue(globalData, filters);
       }
 
       update();

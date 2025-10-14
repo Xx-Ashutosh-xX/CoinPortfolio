@@ -1,92 +1,481 @@
-SL NO.,COIN LOCATION,COUNTRY,MINT YEAR,VALUE / NOMENCLATURE,DESCRIPTION,METAL,VALUE AS ON 2025,
-1,A-1 a,Spain,1925,25  Centimos,Ship Caravel on waves  Caraba,CU - Ni,7$
-2,A-1 b,France,1920,20  Centimes,,Billon ( silver copper ),1$
-3,A-1 c,Malaya,1940,1 Cent,King George VI,Bronze,15$
-4,A-1 d,Spain,1878,5 centimos,King Alfonso XII / Spain Coat of Arms,Bronze,20$
-5,A-1 e,Iran,1926,100 Dinar,Reza Shah Pahalavi,CU - Ni,10$
-6,A-1 f,Iran,1926,50 Dinar,Reza Shah Pahalavi,CU - Ni,5$
-7,A-2 a,Australia,1950,3 Pence,King George VI / 3 bound wheat stalks,Silver 50%,40$
-8,A-2 b,Switzerland,1920,1 Swiss Franc,Standing Helvetia,Silver 85% + Cu,9$
-9,A-2 c,Switzerland,1949,1 swiss rappen,Swiss cross / wheat spike,Bronze,6$
-10,A-2 d,Switzerland,1921,5 Swiss Rappen,Head of Libertas,CU - Ni,2$
-11,A-2 e,Germany,1950,10 Pfenning,Oak seedling,Brass clad steel,80$
-12,A-2 f,Germany,1924,1 Pfenning,Wheat sheaf between date,Copper,25$
-13,A-3 a,Germany,1906,1 Pfenning,German eagle with shield,Copper,35$
-14,A-3 b,Germany,1949,10 pfenning,An oak seedling,Brass clad steel,70$
-15,A-3 c,Germany,1925,5 Reichspfenning,Wheat ears drawing Pyramid,Aluminium Bronze,55$
-16,A-3 d,Germany,1924,50 Reichspfenning,Imperial Eagle & Oak leaves,Nickel,25$
-17,A-3 e,Mombasa,1888,1 pice,pair of scales  British East India,Bronze,350$
-18,A-3 f,Mombasa,1888,1 pice,pair of scales  British East India,Bronze,350$,duplicate  old
-19,A-4 a,South Africa,1941,1/2  Penny,King George VI / Sailing ships,Bronze,5$
-20,A-4 b,Mauritius,1945,5 Cents,King George VI,Bronze,10$
-21,A-4 c,Mauritius,1924,5 Cents,King George V,Bronze,23$
-22,A-4 d,Uganda,1913,1 Cent,Crown and central hole in coin George V,CU - Ni,30$
-23,A-4 e,Uganda,1914,5 Cent,Crown and central hole in coin George V,CU - Ni,30$
-24,A-4 f,Uganda,1909,1/2  Cent,Crown and central hole in coin Edward VII,CU - Ni,50$
-25,A-5 a,Palestine,1939,1 Mil,"olive branch / Palestine in English Arabic & Hebrew",Bronze,10$
-26,A-5 b,Palestine,1940,10 Mil,"Central hole with olivewreath / Palestine in Eng Ar & Hebrew",CU - Ni,5$
-27,A-5 c,Phillipines,1960,5 Centavos,Seated man with hammer & Anvil / coat of arms,Brass ,2$
-28,A-5 d,Palestine,1927,2 Mil,"olive branch / Palestine in English Arabic & Hebrew",Bronze,125$
-29,A-5 e,Palestine,1927,2 Mil,"olive branch / Palestine in English Arabic & Hebrew",Bronze,125$,duplicate  
-30,A-5 f,Poland,1939,1 Grosz,Crowned Eagle with open wings,Bronze,7$
-31,A-6 a,USA,1951,1 cent,Lincoln Wheat ears reverse,Bronze,2$
-32,A-6 b,USA,1951,1 Cent,Lincoln Wheat ears reverse,Bronze,2$, duplicate
-33,A-6 c,USA,1929,1 Dime,Mercury Dime    portrait of liberty wearing winged cap,Silver,5$
-34,A-6 d,Malaysia,1927,1 Cent,Sarawak  bust of Rajah C V Brooke,Bronze,10$
-35,A-6 e,Malaysia,1890,1 Cent,Sarawak  Charles  Brooke  face,Bronze,20$
-36,A-6 f,Malaysia,1927,1 Cent,Sarawak  bust of Rajah C V Brooke,Bronze,10$, duplicate
-37,A-7 a,Malaysia,1896,1 Cent,Sarawak  Charles  Brooke  face,Bronze,20$,Duplicate
-38,A-7 b,India,,,Mughal time coin,,$
-39,A-7 c,India,,,Mughal time coin,,$
-40,A-7 d,Muscat & Oman,1898,1/4 Anna,Faisal ,Copper,12$
-41,A-7 e,Iran,1970,50 dinar,Persin lion holding sword Mohammad Reza Pahalwi,Aluminium Bronze,5$
-42,A-7 f,German East Africa,1891,1 pesa,Wilhelm II  German eaglewith crown,Copper,20$
-43,A-8 a ,Cuba,1946,1 Cenavos,Cuban coat of Arms /   5 pointed star,CU - Ni,5$
-44,A-8 b,France,1939,25 Centimes,Phrygian  cap  /  branch of olive tree  tound with hole,nickel silver,2$
-45,A-8 c,France,1952,20   Franc,Marianne and rooster,Copper Aluminium,30$
-46,A-8 d,France,1930,25 Centimes,round with hole liberty cap with wreath,CU - Ni,5$
-47,A-8 e,France,1924,2 Franc,Mercury god of commerce,Copper Aluminium,2$
-48,A-8 f,France,1926,50 Centimes,Mercury god of commerce,Copper Aluminium,10$
-49,A-9 a,France,1872,5 Centimes,lady portrait / central wreath,Bronze,15$
-50,A-9 b,Sweden,1921,5 ore,"Gustaf V  single crown  /  3 crowns",Bronze,5$
-51,A-9 c,Sweden,1950,1 ore,"Gustaf V  single crown  /  3 crowns",Bronze,1$
-52,A-9 d,Norway,1952,5 ore,"Hankon VII  crowned monogram of king",Bronze,10$
-53,A-9 e,Norway,1922,5 ore,"Hankon VII  crowned monogram of king",Bronze,2$
-54,A-9 f,Egypt,1861,10 para,Abdul aziz Ottoman rule  denomination below tughra ,Bronze,20$
-55,A-10 a,Malay,1945,5 cent,George VI,Silver 50 %,2$
-56,A-10 b,Egypt,1917,5 Piastres,Hussain Kamel  piastres also known as Qirsh,Silver ,12$
-57,A-10 c,Tunisia,1917,10 centimes,Muhammad V,Bronze,6$
-58,A-10 d,USSR,1946,20 Kopecks,coat of arms of soviet union with 11 orbits,CU - Ni,2$
-59,A-10 e,USSR,1932,20 Kopecks,coat of arms of soviet union with 7 ribbons,CU - Ni,3$
-60,A-10 f,USSR,1957,15 kopeks,coat of arms of soviet union with 15 ribbons,CU - Ni,3$
-61,A-11 a ,USSR,1962,1 Kopek,coat of arms of soviet union with 15 ribbons,Brass,5$
-62,A-11 b,Belgium,1929,25 Centimes,"Albert I royal monogram with a hole and olive sprig",CU - Ni,40$
-63,A-11 c,Belgium,1942,25 Centimes,Leopold  III  royal monogram with centre hole / coat of arms,Zinc,4$
-64,A-11 d,Belgium,1929,10 centimes,"Albert I royal monogram with a hole and olive sprig",CU - Ni,3$
-65,A-11 e,Belgium,1863,10 centimes,Leopold  I  rampant Lion,CU - Ni,40$
-66,A-11 f,Belgium,1953,50 Centimes,Miner with Miner lamp  /  crown,CU - Ni,5$
-67,A-12 a ,Belgium,1923,50 Centimes,kneeling woman /Caducceus dividing value,Nickel ,5$
-68,A-12 b,Belgium,1943,10 centimes,Leopold  III  royal monogram with centre hole / coat of arms,Zinc,3$
-69,A-12 c,Belgium,1905,10 centimes,Leopold  II  royal monogram with centre hole / Olive sprig,CU - Ni,5$
-70,A-12 d,India,2024,20 INR,75 th year o fIndian Independance,Bi metal Ni brass within Ni silver,20 INR
-71,A-12 e,India,2019,5 INR,Ashoka pillar / design ofgrains,Nickel Brass,5 INR
-72,A-12 f,Bhutan,1974,5 chetrums,"Jigme Singye  bust of king /  wheel of Dharma",Aluminium ,5$
-73,A-13 a ,Cyprus,1944,1 Piastre,George VI bust with Scalloped shape with 12 notches,Bronze,5$
-74,A-13 b,Cyprus,1943,1 Piastre,George VI bust with Scalloped shape with 12 notches,Bronze,5$,Duplicate
-75,A-13 c,Cyprus,1938,1 Piastre,George VI bust with Scalloped shape with 12 notches,CU - Ni,8$
-76,A-13 d,Cyprus,1934,1/2 Piastre,George V crowned bust with Scalloped shape with 12 notches,CU - Ni,6$
-77,A-13 e,Cyprus,1944,1/2 Piastre,George VI crowned bust with Scalloped shape with 12 notches,Bronze,4$
-78,A-13 f,Portugal,1892,20 Reis,bust of Calos I / wreath,Bronze,10$
-79,A-14 a ,Portugal,1884,10 Reis,portrait of Louis I  / wreath,Bronze,30$
-80,A-14 b,Portugal,1853,10 Reis,crowned ornate arms  / wreath   Maria II,Copper,20$
-81,A-14 c,Portugal India,1958,30 Centavos,part of Escudo currency  coat of arms,Bronze,10$
-82,A-14 d,Portugal India,1953,20 Centavos,5 escutcheons forming cross within circle  /  olive branch under value in roman,Bronze,5$
-83,A-14 e,Portugal India,1954,10 Centavos,5 escutcheons forming cross /  olive branch,Bronze,5$
-84,A-14 f,Portugal India,1959,10 Centavos,Coat of Arms or shield of Portugal,Bronze,5$
-85,A-15 a ,Portugal India,1957,10 Centavos,Coat of Arms or shield of Portugal,Bronze,5$,Duplicate
-86,A-15 b,Cyprus,1938,1/2 Piastre,George V crowned bust with Scalloped shape with 12 notches,CU - Ni,6$,Duplicate
-87,A-15 c,Australia,1938,1/2  Penny,King George VI portrait,Bronze,4$
-88,A-15 d,Australia,1941,1/2  Penny,King George VI portrait / Kangaroo leaping,Bronze,4$
-89,A-15 e,Australia,1951,1/2  Penny,King George VI portrait / Kangaroo leaping,Bronze,4$,Duplicate
-90,A-15 f,Australia,1945,1  Penny,King George V crowned portrait,Bronze,4$
-91,A-16 a ,Australia,1917,1/2  Penny,King George VI portrait / Kangaroo leaping,Bronze,4$
+SL NO.,COIN LOCATION,COUNTRY,MINT YEAR,VALUE / NOMENCLATURE,DESCRIPTION,METAL,VALUE AS ON 2025
+1,A-1a,Spain,1925,25  Centimos,Ship Caravel on waves  Caraba,CU - Ni,7$
+2,A-1b,France,1920,10  Centimes,wreath with hole in centre,Billon ( silver copper ),1$
+3,A-1c,Malaya,1940,1 Cent,King George VI,Bronze,15$
+4,A-1d,Spain,1878,5 centimos,King Alfonso XII / Spain Coat of Arms,Bronze,20$
+5,A-1e,Iran,1926,100 Dinar,Reza Shah Pahalavi,CU - Ni,10$
+6,A-1f,Iran,1926,50 Dinar,Reza Shah Pahalavi,CU - Ni,5$
+7,A-2a,Switzerland,2011,5 Swiss Rappen,Head of Libertas,CU - Ni,2$
+8,A-2b,Switzerland,1920,1 Swiss Franc,Standing Helvetia,Silver 85% + Cu,9$
+9,A-2c,Switzerland,1949,1 swiss rappen,Swiss cross / wheat spike,Bronze,6$
+10,A-2d,Switzerland,1921,5 Swiss Rappen,Head of Libertas,CU - Ni,2$
+11,A-2e,Germany,1950,10 Pfenning,Oak seedling,Brass clad steel,80$
+12,A-2f,Germany,1924,1 Pfenning,Wheat sheaf between date,Copper,25$
+13,A-3a,Germany,1906,1 Pfenning,German eagle with shield,Copper,35$
+14,A-3b,Germany,1949,10 pfenning,An oak seedling,Brass clad steel,70$
+15,A-3c,Germany,1925,5 Reichspfenning,Wheat ears drawing Pyramid,Aluminium Bronze,55$
+16,A-3d,Germany,1924,50 Reichspfenning,Imperial Eagle & Oak leaves,Nickel,25$
+17,A-3e,Germany,1992,2 Deutchshe Mark,portrait of Franz Josef Straub /  German Eagle,Copper Nickel Clad Nickel,5$
+18,A-3f,Germany,1975,5 Deutchshe Mark,German Eagle,Copper Nickel Clad Nickel,5$
+19,A-4a,South Africa,1941,1/2  Penny,King George VI / Sailing ships,Bronze,5$
+20,A-4b,Europe Austria,2005,2 Euro cent,An edelweiss /  A globe,Copper plated steel,1$
+21,A-4c,Europe Spain,2004,2 Euro cent,Façade of Cathedral of Santiago de Compostela /  A globe,Copper plated steel,1$
+22,A-4d,Uganda,1913,1 Cent,Crown and central hole in coin George V,CU - Ni,30$
+23,A-4e,Uganda,1914,5 Cent,Crown and central hole in coin George V,CU - Ni,30$
+24,A-4f,Uganda,1909,1/2  Cent,Crown and central hole in coin Edward VII,CU - Ni,50$
+25,A-5a,Palestine,1939,1 Mil,"olive branch / Palestine in English Arabic & Hebrew",Bronze,10$
+26,A-5b,Palestine,1940,10 Mil,"Central hole with olivewreath / Palestine in Eng Ar & Hebrew",CU - Ni,5$
+27,A-5c,Phillipines,1960,5 Centavos,Seated man with hammer & Anvil / coat of arms,Brass,2$
+28,A-5d,Palestine,1927,2 Mil,"olive branch / Palestine in English Arabic & Hebrew",Bronze,125$
+29,A-5e,Poland,1994,5 Zlotych,Eagle within Coat of Arms,Aluminium bronze centre with copper Nickel Ring,2$
+30,A-5f,Poland,1939,1 Grosz,Crowned Eagle with open wings,Bronze,7$
+31,A-6a,Kuwait,1995,5 Fils,"Traditional Dhow  a sailing vessel",Nickel brass plated steel,1$
+32,A-6b,USA,1951,1 Cent,Lincoln Wheat ears reverse,Bronze,2$
+33,A-6c,USA,1929,1 Dime,Mercury Dime    portrait of liberty wearing winged cap,Silver,5$
+34,A-6d,USA,2014,1/4 Dollar,portrait of Washington / Arches of National park Utah,Cu - Ni clad Copper,2$
+35,A-6e,USA,2014,1/4 Dollar,portrait of Washington /  Log Cabin in Great Smoky mountain park in Tennessee,Cu - Ni clad Copper,2$
+36,A-6f,USA,2014,1/4 Dollar,portrait of Washington / Great Sand dunes Colorado,Cu - Ni clad Copper,2$
+37,A-7a,USA,2014,1/4 Dollar,portrait of Washington / Everglades National Park Florida,Cu - Ni clad Copper,2$
+38,A-7b,Malaysia,1927,1 Cent,Sarawak  bust of Rajah C-V Brooke,Bronze,10$
+39,A-7c,Malaysia,1890,1 Cent,Sarawak  Charles  Brooke  face,Bronze,20$
+40,A-7d,Malaysia,1896,1/2  Cent,Sarawak  Charles  Brooke  face,Bronze,20$
+41,A-7e,Iran,1970,50 dinar,Persin lion holding sword Mohammad Reza Pahalwi,Aluminium Bronze,5$
+42,A-7f,German East Africa,1891,1 pesa,Wilhelm II  German eaglewith crown,Copper,20$
+43,A-8a,Cuba,1946,1 Cenavos,Cuban coat of Arms /   5 pointed star,CU - Ni,5$
+44,A-8b,France,1939,25 Centimes,Phrygian  cap  /  branch of olive tree  tound with hole,nickel silver,2$
+45,A-8c,France,1952,20   Franc,Marianne and rooster,Copper Aluminium,30$
+46,A-8d,France,1930,25 Centimes,round with hole liberty cap with wreath,CU - Ni,5$
+47,A-8e,France,1924,2 Franc,Mercury god of commerce,Copper Aluminium,2$
+48,A-8f,France,1926,50 Centimes,Mercury god of commerce,Copper Aluminium,10$
+49,A-9a,France,1872,5 Centimes,lady portrait / central wreath,Bronze,15$
+50,A-9b,Sweden,1921,5 ore,"Gustaf V   single crown  /  3 crowns",Bronze,5$
+51,A-9c,Sweden,1950,1 ore,"Gustaf V   single crown  /  3 crowns",Bronze,1$
+52,A-9d,Europe Italy,2008,10 Eurocent,birth of Venus  / Map of Europe,Nordic Gold,1$
+53,A-9e,Poland,2009,20 Groszy,White Eagle  the arms of Poland,Copper Nickel,1$
+54,A-9f,Peru,2004,2 Soles,Coat of Arms of Peru  / Nazca Lines Humming Bird,Brass centre in steel ring,1$
+55,A-10a,Malay,1945,5 cent,George VI,Silver 50 %,2$
+56,A-10b,Egypt,1917,5 Piastres,Hussain Kamel  piastres also known as Qirsh,Silver,12$
+57,A-10c,Kenya,1997,1 Shilling,Coat of Arms of Kenya  /  Portrait of Daniel Toroitich Arap Moi,Brass Plated Steel,2$
+58,A-10d,USSR,1946,20 Kopecks,coat of arms of soviet union with 11 orbits,CU - Ni,2$
+59,A-10e,USSR,1932,20 Kopecks,coat of arms of soviet union with 7 ribbons,CU - Ni,3$
+60,A-10f,USSR,1957,15 kopeks,coat of arms of soviet union with 15 ribbons,CU - Ni,3$
+61,A-11a,USSR,1962,1 Kopek,coat of arms of soviet union with 15 ribbons,Brass,5$
+62,A-11b,Belgium,1929,25 Centimes,"Albert I   royal monogram with a hole and olive sprig",CU - Ni,40$
+63,A-11c,Belgium,1942,25 Centimes,Leopold  III  royal monogram with centre hole / coat of arms,Zinc,4$
+64,A-11d,Belgium,1929,10 centimes,"Albert I   royal monogram with a hole and olive sprig",CU - Ni,3$
+65,A-11e,Belgium,1863,10 centimes,Leopold  I  rampant Lion,CU - Ni,40$
+66,A-11f,Belgium,1953,50 Centimes,Miner with Miner lamp  /  crown,CU - Ni,5$
+67,A-12a,Belgium,1923,50 Centimes,kneeling woman /Caducceus dividing value,Nickel,5$
+68,A-12b,Belgium,1943,10 centimes,Leopold  III  royal monogram with centre hole / coat of arms,Zinc,3$
+69,A-12c,Belgium,1905,10 centimes,Leopold  II  royal monogram with centre hole / Olive sprig,CU - Ni,5$
+70,A-12d,Somalia,2005,5 Shillings,Elephant with Calf,Aluminium,1$
+71,A-12e,Muscat & Oman,1898,1/4 Anna,Faisal,Copper,12$
+72,A-12f,Bhutan,1974,5 chetrums,"Jigme Singye   bust of king /  wheel of Dharma",Aluminium,5$
+73,A-13a,Russia,2013,2 Rouble,two headed eagle emblem of bank of Russia,Nickel plated Steel,5$
+74,A-13b,Cyprus,1943,1 Piastre,George VI bust with Scalloped shape with 12 notches,Bronze,5$
+75,A-13c,Cyprus,1938,1 Piastre,George VI bust with Scalloped shape with 12 notches,CU - Ni,8$
+76,A-13d,Cyprus,1934,1/2 Piastre,George V crowned bust with Scalloped shape with 12 notches,CU - Ni,6$
+77,A-13e,Cyprus,1944,1/2 Piastre,George VI crowned bust with Scalloped shape with 12 notches,Bronze,4$
+78,A-13f,Poland,2009,1 Zloty,Eagle within Coat of Arms,Copper Nickel,5$
+79,A-14a,Germany,1973,5 Pfenning,An Oak Seedling,Brass clad steel,5$
+80,A-14b,Germany,1950,50 Pfenning,A woman Planting an Oak,Copper Nickel,5$
+81,A-14c,Portugal India,1958,30 Centavos,part of Escudo currency  coat of arms,Bronze,10$
+82,A-14d,Portugal India,1953,20 Centavos,5 escutcheons forming cross within circle  /  olive branch under value in roman,Bronze,5$
+83,A-14e,Portugal India,1954,10 Centavos,5 escutcheons forming cross /  olive branch,Bronze,5$
+84,A-14f,Portugal India,1959,10 Centavos,Coat of Arms or shield of Portugal,Bronze,5$
+85,A-15a,Peru,2007,1 Sol,National arms  /  Seated Liberty,Silver 50 %,4$
+86,A-15b,Peru,2007,20 Centimos,Coat of Arms of Peru  / Chimu Designs from city of Chan Chan,Brass,2$
+87,A-15c,Den Mark,2017,1 Krone,new royal Monogram with 3 crowns   hole in centre,CU - Ni,2$
+88,A-15d,Europe France,2001,20 Euro Cent,Modern Adaptation of a sower,Nordic Gold,2$
+89,A-15e,Singapore,2013,20 Cent,Singapore Emblem  / Lion head motif  Changi Airport,Nickel plated Steel,1$
+90,A-15f,Poland,2016,5 Groszy,Polish Eagle  /  5 Oak Leaves,Brass Plated Steel,1$
+91,A-16a,UAE,2016,25 Fils,A Gazelle,Nickel plated Steel,1$
+92,A-16b,Cuba,2008,10 Cenavos,Cuban coat of Arms /   5 pointed star,Copper Nickel,5$
+93,A-16c,England,1983,20 Pence,IInd  Portrait of Elizabeth II /  crowned Tudor rose,Copper Nickel,5$
+94,A-16d,Macau,1993,50 Avos,Flying Bat /  Dragon Dance by a man,Aluminium Bronze,2$
+95,A-16e,Europe Germany,2002,1 Eurocent,Brandenburg Gate,Copper plated steel,5$
+96,A-16f,Peru,2008,1 Centimos,National arms  of Peru /  Chimu design from city of Chan Chan,Aluminium,2$
+97,A-17a,Poland,2010,2 Groszy,Arms of Poland  /  two  Oak Leaves,Manganese Brass,1$
+98,A-17b,Poland,2007,10 Groszy,White  Eagle on coat of Arms,Copper Nickel,1$
+99,A-17c,Turkey,1909,5 Para,"Mehmed V   Toughra Reshat inside beaded circle",Nickel,20$
+100,A-17d,France,1919,10 centimes,wreath with hole in centre,CU - Ni,5$
+101,A-17e,Turkey,2002,100 bin Lira,portrait of Mustafa Kemal Ataturk /crescent moon with star,Nickel Brass,2$
+102,A-17f,German East Africa,1892,1 Pesa,Wilhelm II  German eagle with crown,Copper,60$
+103,A-18a,Myanmar,1955,5 Pyas,Chinthe ( burmese half lion half dragon ) Scalloped,CU - Ni,20$
+104,A-18b,Myanmar,1955,2 Pyas,Chinthe ( burmese half lion half dragon )  Square,CU - Ni,20$
+105,A-18c,Turkey,1909,10 Para,"Mehmed V   Toughra Reshat  inside circle with olive branch and a wheat sheaf",Nickel,10$
+106,A-18d,Japan,1989-2019,10 yen,phoenix hall,Bronze,1$
+107,A-18e,Jordan,1949,5 Fils,Value with crown Abdullah I bi al Hussain,Bronze,3$
+108,A-18f,Japan,1919,1 Sen,Taisho era  Paulownia flower seal,Bronze,8$
+109,A-19a,Korea,1898,5 Fun,Gwang Mu era   2 dragons / Plum blossom,Copper,20$
+110,A-19b,Zazibar,1882,1 Pysa,Barghash bin Said era   / scales,Copper,15$
+111,A-19c,Japan,1888,1/2 Sen,Meiji era   Dragon within beaded circle,Copper,10$
+112,A-19d,Jordan,1949,10 Fils,Value with crown Abdullah I bi al Hussain,Bronze,3$
+113,A-19e,Iran,1888,50 Dinar,Naser Al - Din Shah Radiant surface with wreath,Copper,12$
+114,A-19f,Poland,2013,2 Zlote,Coat of Arms of Poland,copper Nickel centre in Al Bronze ring,2$
+115,A-20a,Malaysia,2007,20 Sen,Hibiscus flower  /  Tepak Sirih  & kapur metal container  Cembul,Copper Nickel,1$
+116,A-20b,USA,1996,1 Cent,Portrait of Abraham Lincoln  /  Lincoln Memorial,Copper p;ated Zinc,1$
+117,A-20c,Canada,2014,5 cents,Elizabeth II  /  Beaver,Nickel plated Steel,1$
+118,A-20d,Sweden,1967,5 Ore,Gustaf VI Adolf Large Crown at top,Bronze,3$
+119,A-20e,Serbia,2008,2 Dinar,Serbian coat ofArms / Gracanica monastry,Ni- Brass,8$
+120,A-20f,Portugal,1982,2.5 Escudos,Sailing Ship Caravel / Portugese Shield of Arms,CU - Ni,10$
+121,A-21a,Saudi Arabia,2016,10 Halalah,Palm rees with Crossed swords,CU - Ni,2$
+122,A-21b,Saudi Arabia,2012,50 Halalah,Palm rees with Crossed swords,CU - Ni,2$
+123,A-21c,Thailand,1908,1 Satang,"Chakrawith 8 blades around centr hole  Rama V",Nickel,5$
+124,A-21d,Portugal Goa,1848,15 Reiss,Queen's coat of Arms Maria II,Copper,60$
+125,A-21e,Japan,1938,1 Sen,Showa   -  Chrysanthemum Flower / Crow,Aluminium,4$
+126,A-21f,Egypt,1876,5 Qirsh,Abdul Hamid II Flower at the right of tughra,,
+127,A-22a,Afghanistan,1937,10 pul,Arms of Afghanistan within wreath    Muhammad Zahir Shah,Copper Nickel,8$
+128,A-22b,Afghanistan,1937,5 Pul,Blue Mosque or Mazar -e - Sharif within Wreath,Bronze,4$
+129,A-22c,Afghanistan,1937,25 Pul,Blue Mosque or Mazar -e - Sharif within Wreath,Copper Nickel,4$
+130,A-22d,Afghanistan,1895,1 Paisa,Mosque and Arabic script   Abdur Rahman Khan,Bronxe or Copper,10$
+131,A-22e,Afghanistan,1933,25 Pul,Muhammad  Zahir Shah Arabic script,Bronxe or Copper,10$
+132,A-22f,Hungary,2010,200 Forint,Sezechenyi chain bridge Budapest,Bi metal Cu- Ni within  Ni Bronze,2$
+133,A-23a,Hungary,1994,10 Forint,Hungarian Coat of Arms,Copper Nickel,1$
+134,A-23b,Hungary,2001,50 Forint,Saker Falcon,Copper Nickel,1$
+135,A-23c,Hungary,1997,100 Forint,Crowned Hungarian Shield with Double Cross,Nickel Brass,7$
+136,A-23d,Ethiopia,2016,1 Birr,Roaring Lion  / Weighing scale,Bi metal Brass plated steel within Ni plated steel ring,5$
+137,A-23e,Argentina,2011,2 Peso,Bicentenary celebration of May revolution,Bi metal Cu- Ni within Al Bronze,5$
+138,A-23f,Argentina,2009,1 Peso,Replica of 1st coin / national sun with 32 rays,Bi metal Cu-Al- Ni within Cu- Ni ring,2$
+139,A-24a,Ethiopia,2015,50 Santim,Roaring Lion of Judah / Solidarity of five people,Copper Nickel plated Steel,2$
+140,A-24b,Ethiopia,2015,25 Santim,Roaring Lion of Judah / Man and Woman holding hammer & Spanner,Nickel plated Steel,2$
+141,A-24c,Ethiopia,2009,10 Santim,Roaring Lion of Judah / Mountain Antelope,Brass plated Steel,1$
+142,A-24d,Argentina,1993,10 Peso,Independence hall of Tucuman,Brass,4$
+143,A-24e,Europe Austria,2003,50 Eurocent,Secession building in Vienna,Nordic Gold,2$
+144,A-24f,Brasil,1994,25 Centavos,Effigy of Republic,Stainless Steel,2$
+145,A-25a,Brasil,2009,25 Centavos,Portrait of Manuel Deodoro da Fonseca,Brass plated Steel,2$
+146,A-25b,Brasil,1994,10 Centavos,Effigy of Republic,Stainless Steel,2$
+147,A-25c,Brasil,2014,10 Centavos,Portrait of Pedro I,Bronze plated steel,2$
+148,A-25d,Brasil,2007,5 Centavos,Portrait of Tiradentes,Copper plated Steel,2$
+149,A-25e,Brasil,2009,50 Centavos,Portrait of Jose Maria de Silva Paranhos Junior,Stainless Steel,2$
+150,A-25f,Brasil,1997,50 Centavos,Effigy of Republic,Stainless Steel,2$
+151,A-26a,Brasil,1997,5 Centavos,Effigy of Republic,Stainless Steel,2$
+152,A-26b,Argentina,2007,5 Centavos,Smiling Sun with rays,Brassr plated Steel,2$
+153,A-26c,Brasil,2015,1 Real,Para athelete Rio Para olympic,Bi metal stainless steel within Bronze plated steel ring,10$
+154,A-26d,Brasil,2012,1 Real,Rio Olympic Flag hand over,Bi metal stainless steel within Bronze plated steel ring,30$
+155,A-26e,Brasil,2008,1 Real,Effigy of Republic,Bi metal stainless steel within Bronze plated steel ring,2$
+156,A-26f,Brasil,2015,1 Real,Vollyball Rio Olympic,Bi metal stainless steel within Bronze plated steel ring,4$
+157,A-27a,Brasil,2013,1 Real,40th Anniversary of Central Bank of Brasil,Bi metal stainless steel within Bronze plated steel ring,2$
+158,A-27b,Brasil,2002,1 Real,100th anniversary of birth of Juscelino Kubitschek,Bi metal stainless steel within Bronze plated steel ring,8$
+159,A-27c,Brasil,2015,1 Real,50th anniversary of central bank,Bi metal stainless steel within Bronze plated steel ring,5$
+160,A-27d,Brasil,2014,1 Real,Cycling Rio Olympics,Bi metal stainless steel within Bronze plated steel ring,5$
+161,A-27e,Poland,2013,50 Groszy,Arms of Poland  /  Fifty Oak Leaves,Cu - Ni,2$
+162,A-27f,Europe Spain,2001,50 Eurocent,Portrait of spanish writer Miguel de Cervantes /1st map of Europe,Nordic Gold,2$
+163,A-28a,Pakistan,1978,10 Paise,Minar e Pakistan with crescent moon & Star Scalloped,Aluminium,1$
+164,A-28b,Pakistan,1979,25 Paisa,Minar e Pakistan with crescent moon & Star,CU - Ni,1$
+165,A-28c,Bhutan,1974,10 Chetrums,bust of king Jigme Singye Wangchuck  / Endless knot  Scalloped,Aluminium,4$
+166,A-28d,Germany,1979,1 Deutsche Mark,German Eagle /two oak branches,Copper Nickel,2$
+167,A-28e,Iran,1982,10 Rial,World Jerusalem day  Kabba  /  dome of Rock,Copper Nickel,5$
+168,A-28f,India,,,Medival India,,
+169,A-29a,India,,,Medival India,,
+170,A-29b,India,,,Medival India,,
+171,A-29c,India,,,Medival India,,
+172,A-29d,India,,,Medival India,,
+173,A-29e,India,,,Medival India,,
+174,A-29f,India,,,Medival India,,
+175,A-30a,India,2023,1 Rupees,75 years of Amrit Mahotsav,Stainless Steel,1$
+176,A-30b,India,2023,2 Rupee,75 years of Amrit Mahotsav,Stainless Steel,1$
+177,A-30c,India,2024,5 Rupees,75 years of Amrit Mahotsav,Nickel Brass,1$
+178,A-30d,India,2024,10 Rupee,75 years of Amrit Mahotsav,Bi metal  Ni Silver within Ni Brass,1$
+179,A-30e,India,2024,20 Rupee,75 years of Amrit Mahotsav,Bi metal Ni brass within Ni silver,1$
+180,A-30f,India,2019,5 Rupees,Ashoka pillar / design of grains,Nickel Brass,1$
+181,A-31a,India,2013,5 Rupees,25th anniversary of Shri Mata Vaishno devi Shrine board,Nickel Brass,2$
+182,A-31b,India,2012,10 Rupee,25th anniversary of Shri Mata Vaishno devi Shrine board,Bi metal Cu- Ni within Al Bronze,1$
+183,A-31c,India,2009,10 Rupee,Information & Technology Circulation Coin,Bi metal  Ni Silver within Ni Brass,2$
+184,A-31d,India,1954,1/2 Anna,Bull facing left  Zebu,Cu - Ni,2$
+185,A-31e,India,2016,5 Rupees,150 years of Allahabad high court,Nickel Brass,1$
+186,A-31f,India,2004,5 Rupees,Lal Bahadur Shastri Birth Centenary,Cu - Ni,2$
+187,A-32a,India,1995,5 Rupees,50 years of United Nations,Cu - Ni,2$
+188,A-32b,India,1994,5 Rupees,75 th anniversary of ILO    world of work,Cu - Ni,5$
+189,A-32c,India,2001,5 Rupees,2600 birth anniversary of Bhagwan Mahavir,Cu - Ni,5$
+190,A-32d,India,2018,5 Rupees,125 birth anniversary of Prashanta Chandra Mahalanobis & logo of In Stat Inst,Nickel Brass,1$
+191,A-32e,India,2006,5 Rupees,200th Anniversary of State bank of India,Stainless Steel,5$
+192,A-32f,India,2003,5 Rupees,Dadabhai Naoroji,Cu - Ni,3$
+193,A-33a,India,2014,5 Rupees,125 birth anniversary of Jawahar Lal Nehru,Nickel Brass,1$
+194,A-33b,India,2006,5 Rupees,Mahatma Basaveshwar,Stainless Steel,1$
+195,A-33c,India,2003,5 Rupees,100th birth anniversary of K Kamraj,Cu - Ni,1$
+196,A-33d,India,2014,5 Rupees,100th Anniversary of Komagata Maru incident,Nickel Brass,5$
+197,A-33e,India,2014,5 Rupees,175th birth Anniversary of Jamshedji Tata,Nickel Brass,2$
+198,A-33f,India,2013,10 Rupee,60 years of Coir Board,Bi metal Cu- Ni within Ni Bronze,2$
+199,A-34a,India,2015,10 Rupee,125 birth anniversary of Dr S Radhakrishnan,Bi metal Cu- Ni within Ni Bronze,2$
+200,A-34b,India,2015,10 Rupee,100 birth anniversary of Swami Chinmayanand,Bi metal Cu- Ni within Ni Bronze,2$
+201,A-34c,India,2010,10 Rupee,75th Anniversary of Reserve bank of India,Bi metal Cu- Ni within Ni Bronze,2$
+202,A-34d,India,2010,10 Rupee,125  anniversary of National Archiives of India,Bi metal Cu- Ni within Ni Bronze,2$
+203,A-34e,India,2015,10 Rupee,475  birth   anniversary of Maharana Pratap,Bi metal Cu- Ni within Ni Bronze,2$
+204,A-34f,India,2015,10 Rupee,3rd India Africa Forum meet,Bi metal Cu- Ni within Ni Bronze,2$
+205,A-35a,India,2010,1 Rupee,75th Anniversary of Reserve bank of India,Stainless Steel,1$
+206,A-35b,India,1995,1 Rupee,8th World Tamil Conference  Sant Thiruvalluvar,Stainless Steel,2$
+207,A-35c,India,1991,1 Rupee,Rajiv Gandhi,Cu - Ni,1$
+208,A-35d,India,1993,1 Rupee,89th Inter Parliamentry union conference,Cu - Ni,2$
+209,A-35e,India,1990,1 Rupee,SAARC  year of Girl child,Cu - Ni,2$
+210,A-35f,India,1990,1 Rupee,Circulation coin Cross symbol,Stainless Steel,2$
+211,A-36a,India,2005,2 Rupee,Circulation coin Cross symbol,Stainless Steel,1$
+212,A-36b,India,1993,2 Rupee,Small Family Happy Family,Cu - Ni,2$
+213,A-36c,India,1997,2 Rupee,100 birth anniversary of Subhash Chandra Bose,Cu - Ni,1$
+214,A-36d,India,2001,2 Rupee,100 birth anniversary of Dr Syama Prasad Mukherjee,Cu - Ni,1$
+215,A-36e,India,2009,2 Rupee,200 birth anniversary of Louis Braille,Stainless Steel,2$
+216,A-36f,India,2000,2 Rupee,50 years of Supreme Court of India,Stainless Steel,1$
+217,A-37a,India,1993,2 Rupee,Bio deversity & World Food Day,Stainless Steel,1$
+218,A-37b,India,1996,2 Rupee,Water for life & World Food Day,Stainless Steel,1$
+219,A-37c,India,1998,2 Rupee,Shri Aurobindo,Stainless Steel,1$
+220,A-37d,India,2010,2 Rupee,XIXth Commonwealth  Games,Stainless Steel,1$
+221,A-37e,India,1969,50 Paisa,Mahatma Gandhi,Nickel,1$
+222,A-37f,India,1988,50 Paisa,National Integration  Indian Parliament,Copper Nickel,1$
+223,A-38a,India,1997,50 Paisa,50 years of Dandi March,Stainless Steel,1$
+224,A-38b,India,1985,50 Paisa,Indira Gandhi,Copper Nickel,1$
+225,A-38c,India,1964,50 Paisa,Jawahar Lal Nehru   Hindi Legend,Nickel,1$
+226,A-38d,India,1992,1 Rupee,World Food Day,Copper Nickel,2$
+227,A-38e,India,1989,1 Rupee,100th Anniversary of Jawahar lal Nehru,Copper Nickel,2$
+228,A-38f,India,1999,1 Rupee,Sant dnyaneshwar,Stainless Steel,2$
+229,A-39a,India,1991,1 Rupee,Indian Tourism Year,Copper Nickel,2$
+230,A-39b,India,1982,25 Paisa,IXth Asian Games,Copper Nickel,2$
+231,A-39c,India,1970,20 Paisa,Sun Lotus  Food for all,Aluminium Bronze,2$
+232,A-39d,India,1979,5 Paisa,Happy Child Nation Pride International year of child,Aluminium,1$
+233,A-39e,Shri Lanka,2004,50 Cents,National emblem of ShriLanka,Nickel plated steel,10$
+234,A-39f,Shri Lanka,2006,5 Rupee,National emblem of ShriLanka,Nickel plated steel,
+235,A-40a,Shri Lanka,1994,1 Rupees,National emblem of ShriLanka,Copper Nickel,1$
+236,A-40b,Shri Lanka,1995,5 Rupees,50th Anniversary of United Nations /National emblem,Brass plated steel,2$
+237,A-40c,Shri Lanka,2009,1 Rupees,National emblem of ShriLanka,Brass plated steel,10$
+238,A-40d,Shri Lanka,2009,2 Rupees,Armorial ensign of Shrilanka,Nickel plated steel,5$
+239,A-40e,Shri Lanka,1994,5 Rupee,National emblem of ShriLanka,Nickel brass,5$
+240,A-40f,Shri Lanka,2009,10 Rupee,National emblem of ShriLanka,Nickel plated steel,2$
+241,B-1a,India  State of Mewar,1943,1 Anna,Octogonal coin of King Bhupal Singh Chitrakoot udaipur / dosti Londhon,Copper,5$
+242,B-1b,India Nagpur State,,,King riding Horse And a trident with Damroo,,5$
+243,B-1c,India Gwalior State,1929,1/4 Anna,bust of Jivaji Rao /  Arms of Princly state of Gwalior,Copper,2$
+244,B-1d,India Jaipur State,1944,1 Anna,Jhar Twig with leaves,Brass,4$
+245,B-1e,British India,1918,8 Annas,king George V,Copper Nickel,15$
+246,B-1f,British India,1919,4 Annas,king George V Scallopped coin,Copper Nickel,15$
+247,B-1g,British India,1942,2 Annas,king George VI,Nickel Brass,5$
+248,B-1h,British India,1919,1/4 Anna,king George V,Bronze,5$
+249,B-1i,British India,1946,1/4 Anna,king George VI,Bronze,5$
+250,B-1j,British India,1946,1/4 Anna,king Edward Vii,Bronze,5$
+251,B-1k,British India,1936,1 Anna,king George V scalloped,Copper Nickel,5$
+252,B-1l,British India,1939,2 Annas,king George VI,Copper Nickel,5$
+253,B-1m,British India,1923,1/12  Anna,king George V,Bronze,5$
+254,B-1n,British India,1942,1 Pice,Hole Coin from era of king George VI,Copper,5$
+255,B-1o,British India,1946,1/2 Rupee,king George VI  / Indian Tiger,Nickel,5$
+256,B-1p,British India,1939,1/2 Pice,king George VI,Bronze,5$
+257,B-1q,India,1953,1 Pice,Gallopping Horse  Circulation coin,Bronze,10$
+258,B-1r,India,1957,1 Naya Paisa,Round new  Circulation coin,Bronze,8$
+259,B-1s,India,1967,1 Paisa,Square Circulation coin,Aluminium Magnesium,2$
+260,B-1t,India,1977,2 Paisa,Scallopped Circulation coin,Aluminium,2$
+261,B-1u,India,,,Vaishno devi coins,Aluminium,
+262,B-1v,British India,1944,2 Paisa,Portrait of King George VI,Copper,2$
+263,B-1w,India,1958,3 Paisa,Hexagonal  Circulation coin,Aluminium,2$
+264,B-1x,India,1979,5 Paisa,Square Circulation coin,Aluminium Magnesium,2$
+265,B-2a,India,1988,10 Paisa,Round Circulation coin,Stainless Steel,2$
+266,B-2b,India,1982,10 Paisa,9th  Asian Gaames,Aluminium,2$
+267,B-2c,India,1985,10 Paisa,Octogonal Circulation coin,Aluminium,2$
+268,B-2d,India,1987,20 Paisa,Hexagonal  Circulation coin,Aluminium,2$
+269,B-2e,India,1970,20 Paisa,Lotus blossom,Nickel Brass,2$
+270,B-2f,India,1969,20 Paisa,Mohan Das gandhi,Aluminium Bronze,2$
+271,B-2g,India,1986,25 Paisa,Circulation coin,Copper Nickel,2$
+272,B-2h,India,1954,1/4 Rupee,2 Grain Sprigs with 1/4 lettering denoting Value,Nickel,2$
+273,B-2i,India,1956,1/2 Rupee,2 Grain Sprigs with 1/2 lettering denoting Value,Nickel,2$
+274,B-2j,India,1991,25 Paisa,Rhino,Stainless Steel,1$
+275,B-2l,India,2012,1 Rupee,Circulation Coin rupay symbol series,Ferritic Stainless Steel,1$
+276,B-2m,India,2009,1 Rupee,Nitya Mudra,Ferritic Stainless Steel,1$
+277,B-2n,India,1990,1 Rupee,B R Ambedkar,Cupro Nickel,2$
+278,B-2o,India,2000,1 Rupee,Circulation Coin 2 wheat shaf 25 mm,Ferritic Stainless Steel,2$
+279,B-2p,India,1980,1 Rupee,Circulation Coin 2 wheat shaf 28 mm,Cupro Nickel,2$
+280,B-2q,India,2003,2 Rupee,National Integration,Cupro Nickel,1$
+281,B-2r,India,1982,2 Rupee,9th  Asian Gaames,Cupro Nickel,2$
+282,B-2s,India,2008,2 Rupee,Nitya Mudra,Ferritic Stainless Steel,2$
+283,B-2t,India,2010,2 Rupee,Platinum jubilee of RBI,Ferritic Stainless Steel,2$
+284,B-2u,India,1999,2 Rupee,Chatrapati Shivaji,Cupro Nickel,2$
+285,B-2v,India,2011,2 Rupee,Circulation Coin rupay symbol series,Ferritic Stainless Steel,1$
+286,B-2w,India,1989,5 Rupees,Jawaharlal Nehru birth centenary big coin,Cupro Nickel,1$
+287,B-2x,India,2022,20 Rupee,Visually impaired series,Nickel Brass Ring within Nickel Silver,1$
+288,B-3a,India,2010,5 Rupees,Mother Teresa,Nickel Brass,2$
+289,B-3b,India,2010,5 Rupees,CAG India,Nickel Brass,2$
+290,B-3c,India,2005,5 Rupees,75 Years of Dandi March,Stainless Steel,2$
+291,B-3d,India,2010,5 Rupees,100 Years of Income Tax,Nickel Brass,2$
+292,B-3e,India,1984,5 Rupees,Indira Gandhi,Cupro Nickel,2$
+293,B-3f,India,2007,5 Rupees,Bhagat Singh,Stainless Steel,2$
+294,B-3g,India,2006,5 Rupees,Jagat Guru Narayan Guru,Stainless Steel,2$
+295,B-3h,India,2009,5 Rupees,Saint Alphonsa,Nickel Brass,2$
+296,B-3i,India,2010,5 Rupees,C Subramaniam birth centenary,Nickel Brass,2$
+297,B-3j,India,2012,5 Rupees,60 Years of Parliament,Nickel Brass,2$
+298,B-3k,India,2010,5 Rupees,19th Common wealth Games,Nickel Brass,2$
+299,B-3l,India,2011,5 Rupees,Madan Mohan Malviya,Nickel Brass,2$
+300,B-3m,India,2006,5 Rupees,50 years of ONGC,Stainless Steel,2$
+301,B-3n,India,2014,5 Rupees,Maulana Abdul Kalam Azad,Nickel Brass,2$
+302,B-3o,India,2011,5 Rupees,Rabindranath Tagore,Nickel Brass,2$
+303,B-3p,India,2011,5 Rupees,150 years of Kuka movement with bust ofSatguru Ramdas ji,Nickel Brass,2$
+304,B-3q,India,2012,5 Rupees,Motilal Nehru,Nickel Brass,
+305,B-3r,India,2013,5 Rupees,Swamy Viveka nand,Nickel Brass,
+306,B-3s,India,1995,5 Rupees,Organisation of Food & Agricuture,Copper Nickel,
+307,B-3t,India,2011,5 Rupees,Civil Aviation,Nickel Brass,
+308,B-3u,India,1995,5 Rupees,Circulation Coin 23 mm,Copper Nickel,1$
+309,B-3v,India,2015,5 Rupees,Circulation Coin 23 mm  ₹ symbol,Nickel Brass,1$
+310,B-3w,India,2010,5 Rupees,Circulation Coin 23 mm,Nickel Brass,1$
+311,B-3x,India,2013,5 Rupees,Acharya Tulsi birth Centenary,Nickel Brass,2$
+312,B-4a,Australia,2008,5 Cent,Portrait of Queen Elizabeth II / Short beaked Echidna,Copper Nickel,1$
+313,B-4b,Australia,2008,10 Cent,Portrait of Queen Elizabeth II /  Male superb Lyrebird,Copper Nickel,2$
+314,B-4c,Australia,1995,20 Cent,Portrait of Queen Elizabeth II /  50th anniversary of United Nations,Copper Nickel,25$
+315,B-4d,Australia,1983,50 Cent,Portrait of Queen Elizabeth II /  Australian coat of Arms,Copper Nickel,6$
+316,B-4e,Argentina,1992,10 Centavos,2 hands  holding a pole with a hat with a rising Sun,Aluminium Bronze,4$
+317,B-4f,Australia,2004,2 Dollars,Portrait of Queen Elizabeth II /  An Aborginal Elder,Aluminium Bronze,5$
+318,B-4g,Australia,2008,1 Dollar,Portrait of Queen Elizabeth II / Centenary of Scouting,Aluminium Bronze,8$
+319,B-4h,Australia,1985,1 Dollar,Portrait of Queen Elizabeth II /  5 Kangaroos,Aluminium Bronze,25$
+320,B-4i,Australia,1950,3 Pence,King George VI / 3 bound wheat stalks,Silver 50%,40$
+321,B-4k,Bangladesh,2010,1 Taka,Water Lily /Portrait of sheikh Mujib ur Rehman,Stainless Steel,2$
+322,B-4l,Bangladesh,2010,2 Taka,Water Lily /Portrait of sheikh Mujib ur Rehman,Stainless Steel,2$
+323,B-4m,Czech Republic,1997,1 Koruna,Czech Lion,Nickel plated steel,4$
+324,B-4n,Czech Republic,2003,50 Haler,Crowned Czech lion,Aluminium,3$
+325,B-4o,Czech Republic,2019,50 Koruna,Crowned Czech Lion /  St Wenceslas monument Duke of Bohemia,Brass plated steel,10$
+326,B-4p,Germany,1950,10  pfenning,An oak seedling,Brass clad Iron,10$
+327,B-4q,Germany,1981,2  Pfenning,An oak seedling,Copper clad iron,3$
+328,B-4r,Germany,1980,1  Pfenning,An oak seedling,Copper clad iron,1$
+329,B-4s,Germany,1938,5 Reichspfenning,eagle on top of Swastika,Aluminium Bronze,5$
+330,B-4t,Germany,1939,1  Reichspfenning,eagle on top of Swastika,Bronze,3$
+331,B-4u,China,1999,1 Jiao,"Peony blossom  Tiananmeb",Aluminium,2$
+332,B-4v,China,2007,1 Yuan,"Renminbi  Chrysanthemum bossom",Nickel plated steel,1$
+333,B-4w,China,2005,1 Jiao,Orchid blossom,Copper Nickel,2$
+334,B-4x,Hong Kong,1988,10 Cent,Portrait of Queen Elizabeth II,Nickel Brass,6$
+335,B-5a,Hong Kong,1988,20 Cent,Portrait of Queen Elizabeth II   Scalloped Coin,Nickel Brass,6$
+336,B-5b,Hong Kong,1978,50 Cent,Portrait of Queen Elizabeth II,Nickel Brass,2$
+337,B-5c,Hong Kong,1995,2 Dollars,Hong Kong Orchid Flower,Copper Nickel,6$
+338,B-5d,Hong Kong,1978,1 Dollar,Portrait of Queen Elizabeth II / Crowned Lion,Copper Nickel,4$
+339,B-5e,Hong Kong,1994,1 Dollar,Hong Kong Orchid Flower,Copper Nickel,3$
+340,B-5f,Hong Kong,1998,20 Cent,Hong Kong Orchid Flower,Nickel Brass,2$
+341,B-5g,Israel,1986,10 Agorot,Replica of Coin issued by mattathias Antigonus,Aluminium Bronze,2$
+342,B-5h,Israel,2000,1 New Sheqel,Lily & letters Yehud written in Paleo Hebrew,Nickel plated steel,2$
+343,B-5i,Egypt,2005,1 Pound,Funeral mask of TutanKhamun,Brass plated steel centre within Nickel plated steel,4$
+344,B-5j,Europe Germany,2003,5 euro cent,Oak twig,Copper Plated steel,2$
+345,B-5k,Europe Germany,2008,20 Euro Cent,randenburg Gate,Nordic Gold,2$
+346,B-5l,Europe Germany,2003,1 Euro,German Eagle,Nickel Brass outer ring withCopper Nickel inner ring,2$
+347,B-5m,Macau,2007,10 Avos,flying Bat /  lion Dance head dress,Brass,2$
+348,B-5n,Europe Austria,2005,1 Euro cent,A Gentian / A Globe,Copper plated steel,1$
+349,B-5o,Europe Spain,2001,10 Eurocent,Portrait of spanish writer Miguel de Cervantes /1st map of Europe,Nordic Gold,1$
+350,B-5p,Europe Germany,2002,10 Eurocent,Brandenburg Gate,Nordic Gold,1$
+351,B-5q,Europe Germany,2010,2 Euro cent,an Oak twig,Copper plated steel,1$
+352,B-5r,Malaysia,2009,10 Sen,Hibiscus flower  /  depiction of Congak game,Copper Nickel,1$
+353,B-5s,Malaysia,2010,20 Sen,Hibiscus flower  /  depiction of Congak game,Copper Nickel,1$
+354,B-5t,Malaysia,1971,20 Sen,Parliament house,Copper Nickel,7$
+355,B-5u,South Korea,2004,10 Won,Dabotap Pagoda bigger coin,brass,12$
+356,B-5v,South Korea,2007,100 Won,Portrait of Admiral Yi Sun-sin,Copper Nickel,15$
+357,B-5w,South Korea,1989,50 Won,Rice plant,Nickel brass,3$
+358,B-5x,South Korea,2009,10 Won,Dabotap Pagoda,Copper plated Aluminium,1$
+359,B-6a,New Zealand,2011,10 Cent,Portrait of Elizabeth II / Maori Koruru,Copper plated steel,5$
+360,B-6b,New Zealand,2006,20 Cent,Portrait of Elizabeth II / Maori carving depicting Pukaki,Nickel plated steel,5$
+361,B-6c,New Zealand,2006,50 Cent,Portrait of Elizabeth II / barque of HMS Endeavour ship,Nickel plated steel,2$
+362,B-6d,New Zealand,1990,1 Dollar,Portrait of Elizabeth II / kiwi bird,Aluminium Bronze,5$
+363,B-6e,New Zealand,1999,5 Cent,Portrait of Elizabeth II / Tutara ( endangered Lizard ),CopperNickel,5$
+364,B-6f,New Zealand,1987,10 cent,Portrait of Elizabeth II / Maori Koruru,CopperNickel,10$
+365,B-6g,Nepal,1979,1 Rupee,vikram samvat 2036  trident  / sword,Copper plated Nickel,5$
+366,B-6h,Nepal,1997,2 Rupee,Vikram Samvat  2054  Mountain representing map of Nepal,Aluminium Bronze,1$
+367,B-6i,Nepal,1972,10 Paisa,"Vikram Samvat  2029 Himalayas with sun moon & Trident",Brass,3$
+368,B-6j,Nepal,1976,10 Paisa,Vikram Samvat  2033  Sheep's head  Agriculture for development,Brass,3$
+369,B-6k,Nepal,1975,10 Paisa,Vikram Samvat  2032  International year for women,Brass,3$
+370,B-6l,Nepal,1980,5  Paisa,"Vikram Samvat  2037  Himalayas with sun moon & Trident  Achhami Cattle",Aluminium,3$
+371,B-6m,Nepal,1982,25 Paisa,Vikram Samvat  2039  Tident with circle  Dagger with flower,Copper Nickel,1$
+372,B-6n,Nepal,1977,50 Paisa,Vikram Samvat  2034  Tident with circle  Dagger with flower,Copper Nickel,1$
+373,B-6o,Nepal,2007,1 Rupee,Vikram Samvat  2064 Mount Everest  and map of Nepal,Brass plated steel,2$
+374,B-6p,Thailand,2010,1 Japanese Yen,Bamboo shoots,Aluminium,1$
+375,B-6q,Japan,2010,10 Japanese Yen,Phoenix hall,Bronze,1$
+376,B-6r,Japan,2010,50 Japanese Yen,Cente hole flanked by chrysanthemum flowers,Copper Nickel,1$
+377,B-6s,Japan,2010,100 Japanese Yen,Cherry blossoms,Copper Nickel,1$
+378,B-6t,Switzerland,1991,10 Rappen,head of Libertas  / wreath of two oak branches,Copper Nickel,3$
+379,B-6w,Qatar,2016,25 Dirhams,"Dates on top  cross swords with a sailimg ship",Nickel clad Steel,1$
+380,B-6x,Qatar,2016,50 Dirhams,"Dates on top  cross swords with a sailimg ship",Nickel clad Steel,2$
+381,B-7a,Argentina,1994,50 Centavos,Tucuman Building,Aluminium Bronze,3$
+382,B-7b,South Africa,1990,2 Rand,south Africa coat of Arms  /  Greater Kudu,Nickel plated copper,1$
+383,B-7c,South Africa,1997,1 Rand,south Africa coat of Arms  /  Springbok,Nickel plated copper,1$
+384,B-7d,South Africa,2003,20 Cent,south Africa coat of Arms  /  king Protea national flower,Bronze Plated Steel,1$
+385,B-7e,South Africa,2009,5 Cent,National coat of Arms  /  Blue Crane,Copper Plated steel,1$
+386,B-7f,South Africa,1999,10 Cent,south Africa coat of Arms  /  Arum Lilliies flower,Bronze Plated Steel,1$
+387,B-7g,South Africa,2006,50 Cent,National coat of Arms  /  Crane Flower,Bronze Plated Steel,1$
+388,B-7h,Thailand,1974,1 Baht,Bust of Rama IX  / Garuda emblem of Thailand,Copper Nickel,3$
+389,B-7i,Thailand,1985,1 Baht,Bust of Rama IX  / temple of Wat Phra Kaew,Copper Nickel,3$
+390,B-7j,Thailand,1987,1 Baht,Bust of Rama IX  / temple of Wat Phra Kaew small,Copper Nickel,3$
+391,B-7k,Thailand,2015,2 Baht,Bust of Rama IX  / Stupa of Phu Khao Thong of Saket,Copper Aluminium Nickel,3$
+392,B-7l,Thailand,2007,2 Baht,Bust of Rama IX  / Stupa of Phu Khao Thong of Saket,Nickel plated steel,2$
+393,B-7m,Thailand,2008,5 Baht,Bust of Rama IX  / The Marble Temple,Copper Nickel Clad copper,2$
+394,B-7n,Thailand,2003,5 Baht,Bust of Rama IX  / royal ceremonial boat with Grand Palace,Copper Nickel Clad copper,1$
+395,B-7o,Thailand,2015,10 Baht,Bust of Rama IX  / Arun Temple,Aluminium bronze centre with copper Nickel Ring,1$
+396,B-7p,England,2001,1 Pound,Portrait of Elizabeth II /  A Celtic Cross Charged at centre,Nickel Brass,5$
+397,B-7q,England,2002,1 Penny,Portrait of Elizabeth II / Crowned Portcullis with Chains,Copper plated steel,3$
+398,B-7r,England,1971,2 Pence,Iind  Portrait of Elizabeth II /Prince of Wales badge  3 ostritch feathers,Bronze,5$
+399,B-7s,England,1994,2  Pence,IIIrd Portrait of Elizabeth II /Prince of Wales badge  3 ostritch feathers,Bronze,2$
+400,B-7t,England,1990,5 Pence,Portrait of Elizabeth II /  Badge of Scotland,Copper Nickel,3$
+401,B-7u,England,1992,10 Pence,iiird Portrait of Elizabeth II /  Crowned Lion passant guardant,Copper Nickel,3$
+402,B-7v,England,2001,10 Pence,Ivth Portrait of Elizabeth II /  Crowned Lion passant guardant,Copper Nickel,3$
+403,B-7w,England,2000,20 Pence,IV th  Portrait of Elizabeth II /  crowned Tudor rose,Copper Nickel,5$
+404,B-7x,England,1997,50 Pence,Heptagon  Portrait of Elizabeth II /  Figure of Britannia seated beside Lion,Copper Nickel,5$
+405,B-8a,England,1983,1 Pound,Portrait of Elizabeth II /  Royal Arms with Supporters,Nickel Brass,5$
+406,B-8b,England,2007,2 Pound,Abolishment of Slavery   Portrait of Elizabeth II / Broken chain link,Copper Nickel centre with Nickel brass Ring,5$
+407,B-8c,England,1998,2 Pound," Portrait of Elizabeth II /  4 concentric rings represent Iron age   industril revolution  silicon chip  internet",Copper Nickel centre with Nickel brass Ring,5$
+408,B-8d,Singapore,1995,1 Cent,Orchid flower  / Singapore emblem,Copper plated Zinc,2$
+409,B-8e,Singapore,1995,5 Cent,fruit salad plant / Singapore Arms,Aluminium Bronze,2$
+410,B-8f,Singapore,2007,10 cents,3 Jasmine Plants /  Arms of singapore,Copper Nickel,2$
+411,B-8g,Singapore,1991,20 Cent,Powder puff plant prond  / Singapore Emblem,Copper Nickel,2$
+412,B-8h,Singapore,2007,50 Cent,Yellow Allamanda flower / Singapore emblem,Aluminium Bronze,2$
+413,B-8i,Singapore,1988,1 Dollar,Periwinkle flower / Singapore emblem,Aluminium Bronze,5$
+414,B-8j,USA,1981,1 Dime,F D Roosevelt / olive branch and a torch,Copper Nickel Clad copper,2$
+415,B-8k,USA,2011,1 Cent,Abraham Lincoln /  ribbon on top of shield,Copper plated Zinc,1$
+416,B-8l,USA,1999,5 Cent,Portrait of Thomas Jefferson / Monticello,Copper Nickel,1$
+417,B-8m,USA,2000,1/4 Dollar,George Washington / Dome of Maryland Statehouse,Copper Nickel Clad copper,2$
+418,B-8n,USA,1965,1/4 Dollar,George Washington / Wings spread Eagle,Copper Nickel Clad copper,10$
+419,B-8o,UAE,2016,50 Fils,3 oil derricks,Nickel plated steel,2$
+420,B-8p,UAE,2014,1 Dirham,Arabic coffee pot  Dallah,Nickel plated steel,5$
+421,B-8q,Taiwan,2014,1 Yuan,bust of Chiang Kai shek,Copper Aluminium Nickel,5$
+422,B-8r,Taiwan,2014,5 Yuan,bust of Chiang Kai shek,Copper Nickel,5$
+423,B-8s,Taiwan,2005,10 Yuan,bust of Chiang Kai shek,Copper Nickel,5$
+424,B-8t,Taiwan,2003,50 Yuan,Portrait of Sun Yat sen / two rice stalks,Copper Aluminium Nickel,10$
+425,B-8u,Mombasa,1888,1 pice,pair of scales  British East India,Bronze,350$
+426,B-8v,Hong Kong,1993,5 Dollar,Hong Kong Orchid Flower,Copper Nickel,
+427,B-8w,Europe Italy,2002,2 Euro,Portrait of Dante Aligheiri  /  map,nickel brass centre with nickel ring,3$
+428,B-8x,Argentina,2009,25 Centavos,Cabildo building,Aluminium Bronze,2$
+429,C-1a,British India,1919,1 Rupee,portrait of king George V,Silver,15$
+430,C-1b,British India,1862,1 Rupee,portrait of Queen Victoria with crown,Silver,15$
+431,C-1c,British India,1906,1 Rupee,portrait of king Edward VII,Silver,15$
+432,C-1d,British India,1840,1 Rupee,portrait of Queen Victoria without crown,Silver,15$
+433,C-1e,British India,1880,1 sovereign,St George slaying Dragon & portrait of Queen Victoria without crown,Gold,"1,000$"
+434,C-1f,Phillipines,1885,50 Centimos,"portrait of Alphonso XII   Spanish coat of Arms",Silver,500$
+435,C-1g,China,1900,10 Cash,"Guangxu  Dragon with pearl ",Copper,5$
+436,C-1h,Tibet,1936,3 Srang,Snow Lion in front of mount Kailash,Silver,700$
+437,C-1i,Tibet,1933,1 Sho,Snow Lion,Copper,70$
+438,C-1j,Norway,1952,5 ore,"Hankon VII   crowned monogram of king",Bronze,10$
+439,C-1k,Norway,1922,5 ore,"Hankon VII   crowned monogram of king",Bronze,2$
+440,C-1l,Egypt,1861,10 para,Abdul aziz Ottoman rule  denomination below tughra,Bronze,20$
+441,C-1m,Mauritius,1945,5 Cents,King George VI,Bronze,10$
+442,C-1n,Mauritius,1924,5 Cents,King George V,Bronze,23$
+443,C-1o,Portugal,1892,20 Reis,bust of Calos I / wreath,Bronze,10$
+444,C-1p,Portugal,1884,10 Reis,portrait of Louis I  / wreath,Bronze,30$
+445,C-1q,Portugal,1853,10 Reis,crowned ornate arms  / wreath   Maria II,Copper,20$
+446,C-1r,Australia,1943,1  Penny,"portrait of George VI    Kangaroo",Bronze,12$
+447,C-1s,Australia,1938,1/2  Penny,King George VI portrait,Bronze,4$
+448,C-1t,Australia,1951,1/2  Penny,King George VI portrait / Kangaroo leaping,Bronze,4$
+449,C-1u,Australia,1945,1  Penny,King George VI portrait / Kangaroo leaping,Bronze,4$
+450,C-1v,Australia,1917,1/2  Penny,King George V  crowned portrait,Bronze,4$
+451,C-1w,England,1895,1  Penny,"portrait of Victoria 3rd    Seated figure of Britannia with trident",Bronze,40$
+452,C-1x,England,1961,1  Penny,"portrait of Elizabeth IInd    Seated figure of Britannia with trident",Bronze,5$
+453,C-2a,England,1938,1  Penny,"portrait of George VI    Seated figure of Britannia with trident",Bronze,15$
+454,C-2b,England,1915,1  Penny,"portrait of George V    Seated figure of Britannia with trident",Bronze,5$
+455,C-2c,England,1886,1  Penny,"portrait of Elizabeth IInd    Seated figure of Britannia with trident",Bronze,25$
+456,C-2d,England,1906,1  Penny,"portrait of Edward VII    Seated figure of Britannia with trident",Bronze,25$
+457,C-2e,Tunisia,1917,10 centimes,Muhammad V,Bronze,6$
+458,C-2f,Spain,1878,10 centimos,King Alfonso XII / Spain Coat of Arms,Bronze,25$
+459,C-2g,Malaysia,1874,,Portrait of Queen Victoria Straits settlement,Bronze,130$
+460,C-2h,Mauritius,1971,1 Rupee,portrait of Elizabeth II / Coat of Arms of Mauritius,Copper Nickel,10$
+461,C-2i,Nepal,1988,1 Rupee,vikram samvat 2045  trident  / sword,Stainless Steel,2$
+462,C-2j,Nepal,1994,5 Rupee,vikram samvat 2051  Shri Pashupati nath,Brass plated steel,2$
+463,C-2k,Nepal,1991,25 Paisa,vikram samvat 2048  Crown  /  shri Bhawani Birendra bir Bikram,Aluminium,2$
+464,C-2l,Nepal,2005,1 Rupee,vikram samvat 2062  Talbarahi temple,Brass plated steel,2$
+465,C-2m,Nepal,2001,25 Paisa,vikram samvat 2058  Crown / shri Bhawani Gyanendra bir Bikram,Aluminium,2$
+466,C-2n,Nepal,1986,5 Paisa,vikram samvat 2043  Crown  /  shri Bhawani Birendra bir Bikram,Aluminium,2$
+467,C-2o,Nepal,1993,10 paisa,vikram samvat 2050  Crown  /  shri shri,Aluminium,2$
+468,C-2p,Nepal,2004,50 Paisa,vikram samvat 2061  Crown  /  Shri Swayambhunath Mahachaitya dome,Aluminium,2$
+469,C-2q,Nepal,2003,2  Rupee,vikram samvat 2060   shri Janaki Temple,Brass plated steel,2$
+470,C-2r,Nepal,2006,2  Rupee,vikram samvat 2063   Mount Everest  /  farmer ploughing with buffallo,Brass plated steel,2$
+471,C-2s,Nepal,2004,2  Rupee,vikram samvat 2061  Trident inside square  /  Bageshwori Temple,Brass plated steel,2$
+472,C-2t,India,2013,60 rupees,60 years of Coir Board,50 % silver copper,10$
+473,C-2u,British India,1892,1/4 Anna,Victoria,Bronze,5$
+474,C-2v,British India,1942,1 Anna,king George VI scalloped,Nickel Brass,5$
+475,C-2w,British India,1947,1/4  Rupee,king George VI  / Indian Tiger,Nickel,5$
+476,C-2x,India,1968,10 Paisa,Scalloped Circulation coin,Nickel Brass,2$
+477,C-3a,India,2003,2 Rupees,"150  years of railways portrait of Bholu the guard",Copper Nickel,2$
+478,C-3b,India,2015,5 Rupees,birth centenary of rani Gaindinliu,Nickel Brass,2$
+479,C-3c,India,2015,5 Rupees,"golden jubilee of 1965 operations  valour and sacrifice Amar Jawan monument",Nickel Brass,2$
+480,C-3d,India,2016,10 Rupees,"100 years of Banaras Hindu University logo & image of university",Bi metal Cu- Ni within Ni Bronze,2$
